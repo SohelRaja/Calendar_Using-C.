@@ -21,7 +21,7 @@ int main()
 	printf("!*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_!\n\n");
 	printf("\nEnter a valid year(yyyy):\n");
 	scanf("%d",&y);
-	if(y<1901 && y>9999 || y<1000)
+	if(y<1901 || y>9999)
 	{
 		system("color C7");//c=Red background and 7=White text.
 		printf("\n****INPUT YEAR SHOULD WITH IN 1901 TO 9999****\nYOU SHOULD FOLLOW THE INSTRACTION.\n");
